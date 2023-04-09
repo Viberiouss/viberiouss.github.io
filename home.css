@@ -1,0 +1,148 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background-color: #141414;
+    transition: background-color .5s;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(100, 0, 150);
+    -webkit-text-decoration-color: rgb(100, 0, 150)
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(100, 0, 150);
+    -webkit-text-decoration-color: rgb(100, 0, 150)
+}
+
+h3 {
+    color: white;
+    width: 120ch
+}
+
+h4 {
+    color: white
+}
+
+h5 {
+    color: white
+}
+
+p {
+    color: white
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(100, 0, 150);
+    -webkit-text-decoration-color: rgb(100, 0, 150)
+}
+
+div {
+    border: 2px solid rgb(100, 0, 150);
+    width: 400px;
+    height: 175px
+}
+
+hr {
+    border: 1px solid rgb(100, 0, 150);
+    border-radius: 1px;
+}
+
+button {
+    border: 2px solid rgb(100, 0, 150);
+    background-color: transparent;
+    color: white;
+    cursor: pointer
+}
+
+button:hover {
+    color: rgb(100, 0, 150);
+    transition: 0.3s ease
+}
+
+.parent {
+    text-align: center;
+    width: fit-content;
+    border: none;
+}
+
+.ra {
+    text-align: center;
+    width: 1235px;
+    vertical-align: middle;
+}
+
+.child {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.seconds {
+    display: inline-block;
+    vertical-align: middle;
+    width: 610px;
+}
+
+.start {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: none
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.sidenav a:hover {
+    color: rgb(150, 70, 200);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
